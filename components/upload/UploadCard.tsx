@@ -1,4 +1,4 @@
-import { DocumentText, UploadCloud } from "lucide-react";
+import { FileText, UploadCloud } from "lucide-react";
 
 interface UploadCardProps {
   fileName: string | null;
@@ -26,7 +26,7 @@ export default function UploadCard({
 
       {fileName && (
         <span className="mt-4 inline-flex items-center gap-2 rounded-full bg-green-500/20 px-4 py-2 text-green-300">
-          <DocumentText className="h-4 w-4" />
+          <FileText className="h-4 w-4" />
           {fileName}
         </span>
       )}
